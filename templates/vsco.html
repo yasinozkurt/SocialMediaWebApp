@@ -1,0 +1,224 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Instalarger , Instagram Profil Resimlerini Büyütür.">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+    <link rel="manifest" href="static/img/site.webmanifest"> -->
+    <title>Vsco Profil Resmi Büyütme& Zoom VSCO Profile Picture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles.css'%}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'vsco.css'%}">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058013073445994"
+     crossorigin="anonymous"></script>
+    <script data-ad-client="ca-pub-2058013073445994" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  nbarcolor">
+        <div class="container-fluid nbarcolor">
+            <a class="navbar-brand" href="/">Instalarger</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footersec">Hakkında&İletişim</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Araçlar
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" style="color: black!important;" href="/">instagram pp büyütücü</a></li>
+                            <li><a class="dropdown-item" style="color: black!important;" href="/vsco/vsco-profil-resmi-buyutme">Vsco pp büyütücü</a></li>
+                            <li><a class="dropdown-item" style="color: black!important;" href="#footersec">Tiktok pp büyütücü</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/vsco/vsco-profile-picture-zoom">ENG/TR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="headerMyc">
+        <h1 class="textHMyc vsco-header">VSCO LARGER </h1>
+    </div>
+    <div class="container">
+        <div class="emptyMyc"></div>
+        <div class="expl1">
+            <h2>Vsco profil resmi büyütücü</h2>
+            <p>Vsco Larger, vsco için profil fotoğraflarını büyütme aracıdır.Vsco profil resmi büyütücü Vsco Larger, tamamen ücretsizdir ve program indirmeye gerek kalmadan hızlıca aradığını profil resimlerini getirir .Vsco Larger, diğer larger araçlarımızda
+                olduğu gibi kendiliğinden büyütülemeyen Vsco hesaplarının profil resimlerini büyütür.
+            </p>
+        </div>
+        <div class="slider">
+            <div class="slide_viewer">
+                <div class="slide_group">
+                    <div class="slide">
+                        <p class="slide-text"> INSTALARGER.COM</p>
+                    </div>
+                    <div class="slide">
+                        <p class="slide-text"> PROFİL RESİMLERİNİ BÜYÜTÜN!</p>
+                    </div>
+                    <div class="slide">
+                        <p class="slide-text "> INSTALARGER.COM</p>
+                    </div>
+                    <div class="slide">
+                        <p class="slide-text "> BEDAVA SOSYAL MEDYA ARAÇLARI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End // .slider -->
+        <div class="slide_buttons">
+        </div>
+        <div class="formDivMyc" style="margin-top: 5rem;">
+            <input class="inpMyc" type="text" name="username" placeholder="username" id="usernameid" autocomplete="off">
+            <input class="btnMyc vsco-color" type="submit" value="Search" id="submitId">
+            <div class="spinner-border loaderMyc" id="loadMycId" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div class="realPPDiv" id="realPPDivId"> <img class="realPP" id="realPPId" src="{{ vscolink }}" alt="Not Found" onerror=this.src="{% static '/img/vsco.png'%}"></div>
+        <!--  <div class="ppSec"> <img src="static/img/defpp.png" alt="ppicture" class="imgPP" id="ppSecId"> </div>  -->
+        <div class="yenipac">
+            <div class="boxes b1">
+                <a href="/vsco/vsco-profil-resmi-buyutme"> <img class="favlogo" src="{%static '/img/largerfav.png'%}" alt="largerlogo">
+                    <p class="favtext"> VSCO.CO PROFİL BÜYÜT</p>
+                </a>
+            </div>
+            <div class="boxes b2">
+                <a href="/instagram/instagram-profil-fotografi-buyutme"> <img class="favlogo" src="{%static '/img/instafav.png'%}" alt="instalogo">
+                    <p class="favtext">INSTA PROFİL BÜYÜT</p>
+                </a>
+            </div>
+            <div class="boxes b3">
+                <a href="#"> <img class="favlogo" src="{%static '/img/storyfav.png'%}" alt="storylogo">
+                    <p class="favtext">INSTA UNFOLLOW BUL</p>
+                </a>
+            </div>
+            <div class="boxes b4">
+                <a href="#"> <img class="favlogo" src="{%static '/img/storyfav.png'%}" alt="storylogo">
+                    <p class="favtext">INSTA HİKAYE İNDİR</p>
+                </a>
+            </div>
+        </div>
+        <div class="expl1 expl2">
+            <h2>Vscolarger</h2>
+            <p> Vscolarger, ivsco profil fotoğrafını büyütmek için yapılmış ücretsiz bir araçtır. Vscolarger aradığınız vsco kullanıcısının profil fotoğrafını HD gösterir. Vscolarger android, ios veya masaüstü cihazlarla uyumlu çalışması için tasarlanmıştır
+                ve hala geliştirilmektedir.</p>
+        </div>
+        <div class="lastText">
+            <h3>Instalarger Sosyal Medya Araçları</h3>
+            <h5>Instagram profil büyütme, Vsco profil büyütme, Tiktok profil büyütme.</h5> Instalarger.com , Instagram , Vsco ve Tiktok gibi bazı sosyal medya platformları için kullanabileceğiniz tamamen güvenli ve hızlı internet uygulamasıdır. Bu araçları
+            kullanmak için program indirmenize gerek yoktur. Tamamen gizlilik içerisinde istediğiniz sosyal platform içerisinde arattığınız kullancının profil resmini büyütebilir , hikaye ve videolarını indirebilir, kendi hesabınız ve diğer açık hesapların
+            unfollower (geri takip etmeyen) sayısını bulabilirsiniz. </div>
+        <div class="lastText">
+            <h3>Gizlilik Hakkında</h3>
+            <h5>Instagram profil resmi büyütme, Vsco profil resmi büyütme, Tiktok profil resmi büyütme.</h5> Sosyal medya araçlarımızı kullanırken sizden herhangi bir kimlik bilgisi talep etmemekteyiz.Dolayısıyla hiçbir kişisel bilginize erişimimiz yoktur
+            . <strong>Instagram profil resmi büyütme, Vsco profil resmi büyütme ve Tiktok profil resmi büyütme</strong> araçlarımız profil resmini büyütmek istediğiniz kullanıcının hesabı gizli olsa bile kendisine herhangi bir bildirim göndermeden alıp
+            büyütür ve size sunar . Mahremiyet endişesi olmadan dilediğiniz aramayı yapabilirsiniz. </div>
+    </div>
+    <!--FOOTER BEGİNS-->
+    <footer class="bg-primary text-white text-center text-lg-start  vsco-color">
+        <!-- Grid container -->
+        <div class="container p-4 footerMyc vsco-color">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sık Sorulan Sorular </h5>
+                    <p>
+                        <strong>Profil Resmi Büyütücü Nedir? </strong> Instagram profil resmi büyütücü, instagramda çok küçük boyuttaki profil resimlerini görmenizi sağlayan bir araçtır.
+                        <strong>Instagram Profil Resmi Büyütücü Ücretli mi? </strong> Bu araç tamamen ücretsizdir.
+                    </p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Linkler</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="mailto:instalarger@gmail.com" class="text-white">İletişim</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">İnstagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0" id="footersec">Hakkında</h5>
+                    <p>
+                        instagram profil büyütücü bir takım yazılım kullanarak instagram kullanıcılarına daha geniş bir deneyim sunan bir web uygulamasıdır.
+                    </p>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">www.instalarger.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!--FOOTER ENDS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="{% static 'act.js'%}"></script>
+    <script>
+        window.setInterval(function() {
+            var a = document.getElementById("realPPId");
+            if (a) {
+                a == false;
+                if (window.screen.width <= 480) {
+                    document.getElementById("realPPId").style.width = "95%";
+                    document.getElementById("realPPId").style.marginTop = "4rem";
+                } else {
+                    document.getElementById("realPPId").style.width = "480px";
+                    document.getElementById("realPPId").style.marginTop = "5rem";
+                }
+            }
+        }, 500)
+        document.getElementById("popp").addEventListener("click", function() {
+            alert("Çok Yakında Yayında!")
+        })
+        document.getElementById("popp2").addEventListener("click", function() {
+            alert("Çok Yakında Yayında!")
+        })
+        document.getElementById("popp3").addEventListener("click", function() {
+            alert("Çok Yakında Yayında!")
+        })
+    </script>
+    <script>
+        $('.btnMyc').click(function() {
+            $.ajax({
+                type: "GET",
+                url: "getpic/",
+                data: {
+                    username: document.getElementById("usernameid").value
+                },
+                success: function(data) {
+                    document.getElementById("realPPId").src = data.vscolink;
+                    document.getElementById("loadMycId").classList.remove("showMyc");
+                }
+            })
+        });
+    </script>
+</body>
+</html>

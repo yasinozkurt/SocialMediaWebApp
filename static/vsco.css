@@ -1,0 +1,120 @@
+.vsco-color {
+    background-color: blueviolet!important;
+}
+
+.yenipac {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.othertools {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 7rem;
+}
+
+.instatools {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.boxes {
+    margin: 20px;
+    width: 330px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.b1 {
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.b2 {
+    border-style: solid;
+    border-color: orange;
+}
+
+.b3 {
+    border-style: solid;
+    border-color: rgb(8, 38, 138);
+}
+
+.b4 {
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+h3 {
+    font-size: 44px;
+    background: linear-gradient(to right, rgb(150, 70, 224) 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.b1:hover {
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+.b2:hover {
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+.b3:hover {
+    background-color: rgb(8, 38, 138);
+    transform: scale(1.2);
+}
+
+.b4:hover {
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
+
+.vsco-header {
+    color: blueviolet;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+    color: aliceblue;
+    background-color: rgb(45, 31, 48);
+}
+
+.slide:nth-of-type(1) {
+    background: blueviolet;
+    color: white;
+}
+
+.slide:nth-of-type(2) {
+    background: white;
+    color: blueviolet;
+}
+
+.slide:nth-of-type(3) {
+    background: blueviolet;
+    color: white;
+}
+
+.slide:nth-of-type(4) {
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    .yenipac {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.yenipac {
+    margin-top: 5rem;
+}

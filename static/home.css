@@ -1,0 +1,227 @@
+.kutu1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a:link {
+    color: whitesmoke!important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure!important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke!important;
+}
+
+.v1 {
+    display: inline-block;
+    border-left: 2px solid rgb(209, 21, 84);
+    height: 65px;
+    margin-right: 60px;
+}
+
+.leftDiv {
+    display: inline-block;
+    float: left;
+    color: aliceblue;
+    background-color: rgb(29, 5, 53);
+    width: 280px;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+}
+
+.picbox1,
+.picbox2,
+.picbox3,
+.picbox4 {
+    display: inline-block;
+    color: black;
+}
+
+.homeText {
+    color: black;
+    font-size: medium;
+}
+
+.texthome {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.ibox div {
+    padding: 22px;
+}
+
+.firstText {
+    text-align: center;
+    width: 95%;
+    font-size: large;
+    margin-bottom: 4rem;
+}
+
+.logoHome {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.line {
+    color: black;
+    width: 95%;
+}
+
+.ibox {
+    margin: 40px;
+    width: 95%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.footerForHome {
+    background-color: rgb(54, 54, 150)!important;
+}
+
+.textHMyc {
+    color: rgb(54, 54, 150);
+}
+
+.n1 {
+    border-style: solid;
+    border-color: #F037A5;
+    background-color: aliceblue;
+}
+
+.n2 {
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: aliceblue;
+}
+
+.n3 {
+    border-style: solid;
+    border-color: rgb(185, 104, 28);
+    background-color: aliceblue;
+}
+
+.n4 {
+    border-style: solid;
+    border-color: rgb(153, 31, 31);
+    background-color: aliceblue;
+}
+
+.lastText {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.n1:hover {
+    animation: fadeInAnimation1 ease 0.5s;
+}
+
+@keyframes fadeInAnimation1 {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: #F037A5;
+    }
+}
+
+.n2:hover {
+    animation: fadeInAnimation2 ease 0.5s;
+}
+
+@keyframes fadeInAnimation2 {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}
+
+.n3:hover {
+    animation: fadeInAnimation3 ease 0.5s;
+}
+
+@keyframes fadeInAnimation3 {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: rgb(185, 104, 28);
+    }
+}
+
+.n4:hover {
+    animation: fadeInAnimation4 ease 0.5s;
+}
+
+@keyframes fadeInAnimation4 {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: rgb(153, 31, 31);
+    }
+}
+
+.ibox {
+    transition: transform .2s;
+}
+
+.ibox:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 35px!important;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .v1 {
+        border-left: 0ch;
+        border-bottom: 2px solid red;
+        width: 90%;
+    }
+    .leftDiv {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .leftDiv {
+        width: 90%;
+    }
+    .logoHome {
+        float: none;
+        margin: auto;
+    }
+    .v1 {
+        margin: auto;
+    }
+}
